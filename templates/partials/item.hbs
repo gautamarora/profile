@@ -1,0 +1,22 @@
+<div class="profile">
+  <div class="body">
+      <div class="text-center">
+        <h3 class="text-uppercase text-muted">
+          about me
+        </h3>
+        <img class = "img-responsive img-rounded center-block" style="width:150px" src="{{profile.photo}}" alt="{{profile.name}}">
+        <p class="lead">
+          {{profile.bio}}
+        </p>
+        <hr/>
+        <h4 class="text-uppercase text-muted">
+          skills
+        </h4>
+        <p class="lead">
+          {{#each profile.skills}}
+            <span class="label label-success">{{this}}</span>
+          {{/each}}
+        </p>
+      </div>
+  </div>
+</div>

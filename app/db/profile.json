@@ -1,0 +1,5 @@
+{
+  "photo": "../profile/static/images/me.jpg",
+  "bio": "the man who loves blocks",
+  "skills": ["awesomeness", "karate", "nodejs"]
+}
